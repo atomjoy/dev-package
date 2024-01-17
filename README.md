@@ -4,7 +4,7 @@ Development of the compositor package in repository (Laravel packages).
 
 ## Add dev packages
 
-When the **apilogin** package requires **proton** package version 1.0, create a composer alias.
+When the **apilogin** package requires **proton** package version 1.0, create a composer.json alias.
 
 ```json
 {
