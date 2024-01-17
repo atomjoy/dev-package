@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Main repo file .git/hooks/post-commit
+
+# Rename packages .git2 to .git after push
+[ -d "packages/atomjoy/apilogin/.git2" ] && mv -f packages/atomjoy/apilogin/.git2 packages/atomjoy/apilogin/.git
+[ -d "packages/atomjoy/proton/.git2" ] && mv -f packages/atomjoy/proton/.git2 packages/atomjoy/proton/.git
