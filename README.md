@@ -60,7 +60,7 @@ chmod +x .git/hooks/pre-commit
 chmod +x .git/hooks/post-commit
 ```
 
-## Update repo
+## Update repo with app packages directory
 
 ```sh
 git add .
