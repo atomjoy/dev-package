@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Main repo file .git/hooks/pre-commit
+
+# Rename packages .git to .git2 before push
+[ -d "packages/atomjoy/apilogin/.git" ] && mv -f packages/atomjoy/apilogin/.git packages/atomjoy/apilogin/.git2
+[ -d "packages/atomjoy/proton/.git" ] && mv -f packages/atomjoy/proton/.git packages/atomjoy/proton/.git2
