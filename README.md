@@ -60,6 +60,19 @@ chmod +x .git/hooks/pre-commit
 chmod +x .git/hooks/post-commit
 ```
 
+### Add .gitignore
+
+Add file in package /package/atomjoy/[repo-name]/.gitignore
+
+```sh
+# Ignore Git here
+.git
+.git2
+
+# But not these files...
+!.gitignore
+```
+
 ## Update repo with app packages directory
 
 ```sh
